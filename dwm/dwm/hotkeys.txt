@@ -1,0 +1,28 @@
+# DWM Hotkeys List
+MODKEY = Super
+# Applications
+Mod         + Return    = Alacritty
+Mod|Shift   + f         = Firefox
+Mod         + p         = Dmenu
+Mod|Shift   + p         = Rofi
+Mod         + r         = Rofi Script Launcher
+Mod|Shift   + t         = Kitty (Scratch)
+Mod|Shift   + r         = Kitty (Scratch) Ranger
+Mod|Shift   + m         = Kitty (Scratch) NCMCPP
+
+# DWM Control
+Mod         + b         = Bar (Toggle)
+Mod         + j         = Focus (+)
+Mod         + k         = Focus (-)
+Mod|Shift   + j         = Rotate (+)
+Mod|Shift   + k         = Rotate (-)
+Mod         + h         = Resize (-0.05)
+Mod         + l         = Resize (+0.05)
+Mod         + i         = Increase Master
+Mod         + d         + Decrease Master
+Mod|Shift   + Return    = Zoom (Toggle Master/Stack)
+
+
+# Gap Control
+Mod|Alt     + u         = Increase Gap (All)
+Mod|Alt|Sft + u         = Devrease Gap (All)
